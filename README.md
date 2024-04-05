@@ -33,11 +33,11 @@ pretrain_eegnet.py
 ```
 
 ## Preview
-The Spatial Covariance matrices of the real and generated target and non-target data:
-[SCM](figures/SCM.pdf)
+The Spatial Covariance matrices of the real and generated target and non-target data |  Comparison of target and non-target real and generated data at three channels of subject 52 in session 1
+:-------------------------:|:-------------------------:
+![SCM](figures/SCM.png) | ![Comparison](figures/comparison_subject52_session_1.png)
 
-Comparison of target and non-target real and generated data at three channels of subject 52 in session 1:
-[Comparison](figures/comparison_subject52_session_1.pdf)
+All the article figures can be found in the [`figures`](figures) folder.
 
 ## Huggingface
 The trained EEGNet that is used to compute the FID:
@@ -62,7 +62,7 @@ EEGWave neural network by Torma and Szegletes (https://github.com/tszab/eegwave-
 ## Citing
 
 If you use this code in a scientific publication, please cite this work as:
-```
+```bibtex
 @article{klein2024synthesizing,
   title={Synthesizing EEG Signals from Event-Related Potential Paradigms with Conditional Diffusion Models},
   author={Klein, Guido and Guetschel, Pierre and Silvestri, Gianluigi and Tangermann, Michael},
